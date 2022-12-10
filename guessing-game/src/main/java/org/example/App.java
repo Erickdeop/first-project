@@ -96,6 +96,7 @@ public class App
                     cond.equalsIgnoreCase("no")) {
                 return false;
             }
+            System.out.println("Not a valid input.");
         }
     }
 }
